@@ -1,90 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap");
 
 /*******CSS PARA EL MENU Y BODY******/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-body{
-    background-color: black;
-    font-family: 'Finlandica', sans-serif;
-    overflow-x: hidden;
+body {
+  background-color: black;
+  font-family: "Finlandica", sans-serif;
+  overflow-x: hidden;
 }
 
 .wrapper {
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
 }
 
-.menu{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
 }
 
-.menu .activa{
-    color: greenyellow;
-
+.menu .activa {
+  color: gold;
 }
 
 .menu a:hover {
-    background-color:white;
-    color: black;
-    border-radius: 30px;
-    transition: ease-in .50s;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  transition: ease-in 0.5s;
 }
 
 .menu a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
 }
 
 .menu li {
-    list-style: none;
+  list-style: none;
 }
 
 .navbar {
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    padding: 2em;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 2em;
 }
 
-.iniciales{
-    margin-top: -10px;
+.iniciales {
+  margin-top: -10px;
+  text-decoration: underline;
+}
+
+.iniciales h2 span{
+    font-size: 1.5rem;
+    color: gold;
+    
+}
+
+.iniciales h2{
+    color: white;
 }
 
 .contenedorPrincipal {
-    display: flex;
-    color: aqua;
+  display: flex;
+  color: aqua;
+}
+
+.contenedor1 {
+  margin: 0 auto;
+  width: 80vw;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(1,3fr);
+  align-items: center;
 }
 
 .contenedor1,
 .contenedor2,
 .contenedor3 {
-    color: white;
-    /*font-weight: bold;*/
-    border-radius: 30px;
-    border: 1px solid white;
-    padding: 20px;
-    margin: 10px;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
 }
 
 h3 {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 /*****CSS PARA EL CUERPO DE LA PAGINA (SECTTION)********/
 
-h2{
-    color: white;
+.descargar{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: gold;
+    cursor: pointer;
+    box-shadow: 1px 3px 8px -5px gray;
+}
+
+.descargar:hover{
+    background-color: white;
+    box-shadow: none;
+    font-weight: bold;
+    transition: ease-in 0.7s;
+}
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+p{
+    box-shadow: ;
 }
