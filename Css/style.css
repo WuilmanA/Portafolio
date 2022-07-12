@@ -60,6 +60,11 @@ body {
 .iniciales {
   margin-top: -10px;
   text-decoration: underline;
+  
+}
+
+.iniciales a{
+  text-decoration-color: white;
 }
 
 .iniciales h2 span{
